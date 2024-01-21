@@ -1,26 +1,35 @@
-import LogoWidget from '../LogoWidget/LogoWidget';
-import CartWidget from '../CartWidget/CartWidget';
-import './NavBar.css';
+import LogoWidget from "../LogoWidget/LogoWidget";
+import CartWidget from "../CartWidget/CartWidget";
+import { Link, NavLink } from "react-router-dom";
+
+import "./NavBar.css";
 
 const NavBar = () => {
   return (
-   <header>
-        {/* <h1>WARDROBE</h1> */}
-        <LogoWidget/>
-        
-        <nav>
-            <ul>
-                <li>Marcas</li>
-                <li>Nosotros</li>
-                <li>Contacto</li>
-            </ul>
-        </nav>
+    <header>
+      <Link to="/">
+        <LogoWidget />
+      </Link>
+      <nav>
+        <ul>
+          <li>
+            <NavLink to="/" className="navlink">Home</NavLink>
+          </li>
+          <li>
+            <NavLink to="/categoria/Zapatillas Nike" className="navlink">Nike</NavLink>
+          </li>
+          <li>
+            <NavLink to="/categoria/Zapatillas Adidas" className="navlink">Adidas</NavLink>
+          </li>
+          <li>
+            <NavLink to="/categoria/Zapatillas Puma" className="navlink">Puma</NavLink>
+          </li>
+        </ul>
+      </nav>
 
-        <CartWidget/>
+      <CartWidget />
+    </header>
+  );
+};
 
-   </header>
-  
-  )
-}
-
-export default NavBar
+export default NavBar;

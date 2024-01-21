@@ -2,21 +2,20 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-bottom: 1px solid green;
-    background-color: rgb(243, 243, 180, 0.692);
+    background-color:black;
     margin: 0;
     padding: 0;
 }
-h1 {
-    color: rgba(1, 51, 1, 0.61);
-    text-decoration: none;
-    text-transform: uppercase;
-}
+
 li {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
     display: inline-block;
     margin-left:8rem;
     cursor: pointer;
-    color:rgba(1, 51, 1, 0.61) ;
+    color:whitesmoke ;
+}
+.navlink {
     text-decoration: none;
-
+    color: whitesmoke;
 }

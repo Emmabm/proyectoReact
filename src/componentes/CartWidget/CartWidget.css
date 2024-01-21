@@ -1,3 +1,7 @@
-.imgCarrito {
+.img-carrito {
     height: 60px;
+}
+.numerito {
+    color: whitesmoke;
+    background-color: red;
 }

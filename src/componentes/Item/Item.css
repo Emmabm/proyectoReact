@@ -1,0 +1,51 @@
+.card{
+    margin-top: 2rem;
+    border: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    cursor: pointer;
+    transition: .3s ;
+}
+.card:hover {
+     box-shadow: 3.9px 7.8px 7.8px hsl(0deg 0% 0% / 0.38);
+}
+.card-imagen {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.producto-detalle {
+    background-color:whitesmoke;
+    padding: .5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.titulo-producto {
+    text-align: center;
+}
+.precio {
+    text-align: center;
+}
+.boton-detalle {
+   text-transform: uppercase;
+   text-decoration: none;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: none;
+   border: 1px solid gainsboro;
+   color: black;
+   min-height: 5vh;
+   transition: background-color .2s, color .2s;
+   cursor: pointer;
+
+}
+
+.boton-detalle:hover{
+    background-color: black;
+    color: white;
+}

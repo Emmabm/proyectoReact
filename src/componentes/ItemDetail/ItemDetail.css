@@ -1,0 +1,12 @@
+.contenedor-item-detail {
+    text-align: center;
+    border: 1px solid black;
+    margin: 3rem;
+}
+
+.imagen-detail {
+    width: 150px;
+}
+.id-detail {
+    display: none;
+}
