@@ -1,8 +1,20 @@
-# React + Vite
+# Sneakers Style
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto e-commerce básico que usé para el curso de React. Esta aplicación me permite ver el listado de productos de zapatillas y hacer compras. Los productos y ordenes se almacenan en firebase.
 
-Currently, two official plugins are available:
+## Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+_ React.
+_ React router.
+_ Vite.
+_ Firebase.
+
+## Funcionalidad de la aplicación
+
+_ Ver lista de productos disponibles.
+_ Agregar productos al carrito y ver el detalle de la compra que estas haciendo.
+_Finalizar la compra recibiendo un Order ID.
+
+## Licencia 
+
+Este proyecto esta licenciado bajo MIT.

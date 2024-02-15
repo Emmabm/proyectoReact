@@ -1,0 +1,29 @@
+.boton-contador {
+    font-size: 18px ;
+    margin-bottom: .8rem;
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+    padding: 5px;
+    width: 25px;
+}
+.boton-contador:hover {
+    background-color: black;
+    color: white;
+    transition: background-color .2s, color .2s;
+}
+
+.agregar-carrito {
+    margin-bottom: 1rem;
+    font-size: 16px;
+    padding: 10px;
+    width: 180px;
+    background-color: whitesmoke;
+    color: black;
+}
+.agregar-carrito:hover {
+    background-color: black;
+    color: white;
+    transition: background-color .2s, color .2s;
+    cursor: pointer;
+}

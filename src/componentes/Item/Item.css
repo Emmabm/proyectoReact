@@ -29,6 +29,9 @@
 .precio {
     text-align: center;
 }
+.stock {
+    text-align: center;
+}
 .boton-detalle {
    text-transform: uppercase;
    text-decoration: none;
